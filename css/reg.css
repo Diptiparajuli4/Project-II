@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/bg.jpg);
+    background-size: 90%;
+    background-position: -400px 0px;
+}
+
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'popins';
+}
+
+.register{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.3);
+    color: #00ffff;
+    height: 540px;
+}
+
+form#Fname{
+    font-family: 'popins';
+    font-size: 18px;
+    font-weight: normal;
+}
+
+input#fname{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'popins';
+}
+
+input#mname{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'popins';
+}
+
+input#lname{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'popins';
+}
+
+input#email{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-display: 'popins';
+}
+
+input#pno{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'popins';
+}
+
+.btn{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #00ffff;
+    color: #000;
+}
+
+.btn:hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+    background-color: #000;
+    color: beige;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}

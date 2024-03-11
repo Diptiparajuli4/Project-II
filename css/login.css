@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../images/bg.jpg);
+    background-size: 90%;
+    background-position: -400px 0px;
+}
+
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'popins';
+}
+
+.login{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.3);
+    color: #00ffff;
+    height: 350px;
+}
+
+form#login{
+    font-family: 'popins';
+    font-size: 18px;
+    font-style: normal;
+}
+
+label#user{
+    font-weight: 100;
+    font-family: 'popins';
+}
+
+input#uname{
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 30px;
+}
+
+label#pass{
+    font-weight: 100;
+    font-family: 'popins';
+}
+
+input#password{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.submit{
+    width: 400px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #00ffff;
+    color: #000;
+}
+
+.submit:hover{
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
